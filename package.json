@@ -1,0 +1,48 @@
+{
+  "name": "vue3-ts-tailwind-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "start": "npm run dev",
+    "lint": "eslint . --ext .js,.ts,.vue",
+    "lint:fix": "eslint . --ext .js,.ts,.vue --fix",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@algolia/autocomplete-js": "^1.7.4",
+    "@algolia/autocomplete-plugin-query-suggestions": "^1.7.4",
+    "@algolia/autocomplete-plugin-recent-searches": "^1.7.4",
+    "@algolia/autocomplete-theme-classic": "^1.7.4",
+    "@tailwindcss/forms": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.2",
+    "@vitejs/plugin-vue": "^2.2.2",
+    "algoliasearch": "^4.14.3",
+    "blurhash": "^2.0.4",
+    "ramda": "^0.28.0",
+    "tailwindcss": "^3.0.23",
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "@vitejs/plugin-vue-jsx": "^1.2.0",
+    "@vue/compiler-sfc": "^3.2.31",
+    "@vue/eslint-config-typescript": "^10.0.0",
+    "autoprefixer": "^10.4.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.9.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.4",
+    "postcss": "^8.4.6",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5",
+    "vite": "^2.8.4"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
+  }
+}
