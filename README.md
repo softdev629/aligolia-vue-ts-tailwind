@@ -1,4 +1,4 @@
-# Vue 3, TypeScript & Tailwind CSS Starter
+# Algolia Search Bar implementation
 
 > A simple, Vue 3 starter with TypeScript support
 
