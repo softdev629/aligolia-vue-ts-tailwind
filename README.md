@@ -1,6 +1,6 @@
 # Algolia Search Bar implementation
 
-> A simple, Vue 3 starter with TypeScript support
+> A simple, Vue 3 project which shows algolia search bar
 
 [Demo/Installation](https://vue3-typescript-tailwind-starter.vercel.app/)
 
